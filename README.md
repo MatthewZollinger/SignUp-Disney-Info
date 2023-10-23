@@ -1,4 +1,4 @@
-# SignUp-Disney-Info
+# SignUp Disney+ Info
 
 **This repository is part of a project to determine variables that could predict future Disney+ titles that will receive American Sign Language (ASL) captioning via the browser extension [SignUp](signupcaptions.com).**
 However, several of its parts can be used or adapted to scrape [Flixable](flixable.com) or SignUp for any services they support.
