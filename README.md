@@ -13,10 +13,11 @@ SignUp has a form on its website to allow users to request an interpretation; my
 ## Current files
 
 * **Flixable Scraping.ipynb**: a Jupyter Notebook that scrapes Flixable to get data on all titles currently available on Disney+. It first scrapes Flixable's list of all Disney+ titles, then it scrapes each title's own page on Flixable.
-Required Python packages:
-* selenium
-* pandas
-* bs4
-* requests
-* re
-* time
+  * Required Python packages:
+    * selenium
+    * pandas
+    * bs4
+    * requests
+    * re
+    * time
+* **flixable.csv**: output of the above file, containing columns for title, IMDb rating, content rating (MPAA or TV), release year, runtime (minutes or seasons), date added to Disney+, and genres, as well as links to each individual Flixable page.
