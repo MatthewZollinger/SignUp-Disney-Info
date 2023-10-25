@@ -20,7 +20,7 @@ SignUp has a form on its website to allow users to request an interpretation; my
     * requests
     * re
     * time
-* **flixable.csv**: output of the above file, containing columns for title, IMDb rating, content rating (MPAA or TV), release year, runtime (minutes or seasons), date added to Disney+, and genres, as well as links to each individual Flixable page.
+* **flixable.csv**: output of Flixable Scraping.ipynb, containing columns for title, IMDb rating, content rating (MPAA or TV), release year, runtime (minutes or seasons), date added to Disney+, and genres, as well as links to each individual Flixable page.
 
 * **SignUp Scraping.ipynb**: a Jupyter Notebook that scrapes SignUp to get data on all titles on Disney+ that SignUp currently supports. It scrapes SignUp's homepage to grab all supported titles and also determines the languages for which captions are available.
   * Required Python packages:
@@ -30,4 +30,4 @@ SignUp has a form on its website to allow users to request an interpretation; my
     * requests
     * re
     * time
-* **signupdisney.csv**: output of the above file, containing columns for title and supported languages.
+* **signupdisney.csv**: output of SignUp Scraping.ipynb, containing columns for title and supported languages.
